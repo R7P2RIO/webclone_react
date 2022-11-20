@@ -8,6 +8,7 @@ import galery3 from "./assets/img/galery3.jpg";
 import galery4 from "./assets/img/galery4.jpeg";
 import { NavigationCourse } from "./components/navigationCourse";
 import { SectionThree } from "./components/sectionThree";
+import { ContactForm } from "./components/contact-form/contact-form";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         />
       </div>
       <SectionThree />
+      <ContactForm />
     </div>
   );
 }

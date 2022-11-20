@@ -1,0 +1,131 @@
+.form-container {
+  display: flex;
+  height: 500px;
+}
+
+.form-picture {
+  background-image: url("../../assets/img/form.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.form-location {
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.location {
+  border-left: 1px solid rgba(204, 204, 204, 0.391);
+  flex-wrap: nowrap;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.name-lastname {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.form-left {
+  flex: 3;
+}
+
+.form-right {
+  flex: 2;
+}
+.address,
+.postal {
+  color: rgb(129, 129, 129);
+}
+
+.form-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.container-btn {
+  flex: 2;
+}
+
+.form-text {
+  color: rgb(129, 129, 129);
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-input > label {
+  color: rgb(129, 129, 129);
+}
+.container-input > input {
+  padding: 0.5em;
+  border: none;
+  background-color: rgba(240, 248, 255, 0.7);
+}
+
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+textarea {
+  resize: none;
+  border: none;
+}
+.input_textarea {
+  padding: 0.2em;
+  min-height: 5em;
+  background-color: rgba(240, 248, 255, 0.7);
+}
+
+.display-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 7rem;
+  padding: 1em;
+  background-color: #97c680;
+  color: black;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 2px 11px 15px 3px rgb(0 0 0 / 15%);
+  background-image: linear-gradient(to top, #feba88, 50%, transparent 50%);
+  background-position: top;
+  background-size: 100% 200%;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  font-weight: bold;
+  box-shadow: 2px 11px 15px 3px rgb(0 0 0 / 20%);
+  background-position: bottom;
+
+  background-color: #97c680;
+}
